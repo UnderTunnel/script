@@ -787,7 +787,7 @@ print_success "All Packet"
 function menu(){
 clear
 print_install "Memasang Menu Packet"
-wget https://raw.githubusercontent.com/UnderTunnel/script/main/menuku.zip
+wget https://raw.githubusercontent.com/UnderTunnel/script/main/Bot/menuku.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/UnderTunnel/script/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 7z x -pBumiAyuVpn12BAV menuku.zip
 chmod +x menu/*
